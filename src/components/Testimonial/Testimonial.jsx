@@ -4,21 +4,21 @@ import Slider from "react-slick";
 const testimonialData = [
   {
     id: 1,
-    name: "David Calathan - Director of Design Operations, New York",
-    text: "The results have been incredible. With Power Digital, it feels like they’re in our trench, supporting and understanding us. They’re like a partner and mentor in helping us get where we want to be.",
-    img: "https://picsum.photos/101/101",
+    name: "Business Standard",
+    text: "Indian IT ecosystem is poised for a promising growth trajectory in the coming years with emerging technologies expected to witness a 20 per cent increase in new jobs in 2025, Human Resources (HR) platform FirstMeridian Business Services said on Tuesday Looking back at 2024, it said the Indian IT and tech ecosystem witnessed a 17 per cent surge in new employment opportunities, driven by rapid digital transformation and the concurrent rising demand for emerging tech niche job profiles.",
+    img: "https://bsmedia.business-standard.com/_media/bs/img/article/2024-12/21/full/1734719582-0644.jpg?im=FitAndFill=(826,465)",
   },
   {
     id: 1,
-    name: "David Calathan - Director of Design Operations, New York",
-    text: "The results have been incredible. With Power Digital, it feels like they’re in our trench, supporting and understanding us. They’re like a partner and mentor in helping us get where we want to be.",
-    img: "https://picsum.photos/102/102",
+    name: "The Times of India",
+    text: "Good news for IT sector job seekers! Technology talent demand surged to a new high in February, sparking hopes of recovery in the IT services job market. In February, hiring mandates for IT professionals reached 124,000, a significant 50% increase from January and 33% higher than December, according to data from Xpheno, a staffing firm.",
+    img: "https://static.toiimg.com/thumb/msid-108810255,imgsize-35614,width-400,resizemode-4/108810255.jpg",
   },
   {
     id: 1,
-    name: "Smith - Director of Operations, New York",
-    text: "The results have been incredible. With Power Digital, it feels like they’re in our trench, supporting and understanding us. They’re like a partner and mentor in helping us get where we want to be.",
-    img: "https://picsum.photos/103/103",
+    name: "Lucas Merian, New York",
+    text: "While those with specialized skills remain in high demand, others may find the report doesn’t reflect their experience,” she said. “Looking ahead, the demand for workers is shifting. Knowledge workers are increasingly sought after, surpassing blue-collar roles.",
+    img: "https://www.computerworld.com/wp-content/uploads/2024/12/1618780-0-11990000-1733855373-arrows-showing-upward-trend_growth_chart_graph-100747015-orig.jpg?resize=1024%2C683&quality=50&strip=all",
   },
 ];
 
@@ -30,8 +30,8 @@ const Testimonial = () => {
     speed: 600,
     slidesToShow: 1,
     slidesToScroll: 1,
-    autoplay: false,
-    autoplaySpeed: 3000,
+    autoplay: true,
+    autoplaySpeed: 2000,
     cssEase: "linear",
     pauseOnHover: true,
     pauseOnFocus: true,
@@ -54,7 +54,7 @@ const Testimonial = () => {
                       <img
                         src={img}
                         alt=""
-                        className="block mx-auto h-[300px] w-full sm:w-[200px] object-cover"
+                        className="block mx-auto h-[200px] w-full sm:w-[200px] object-cover"
                       />
                       <div className="space-y-4">
                         <p className="text-gray-500 text-black/80 dark:text-white/80 xl:pr-40">

@@ -1,5 +1,6 @@
 import React from "react";
-import { FaFacebook, FaInstagram, FaLinkedin } from "react-icons/fa";
+import {  FaInstagram, FaLinkedin } from "react-icons/fa";
+import { CgMail } from "react-icons/cg";
 
 const FooterLinks = [
   {
@@ -67,15 +68,15 @@ const Footer = () => {
             <br />
             {/* Social Handle */}
             <div className="flex items-center gap-4 mt-6">
-              <a href="#">
+              <a href="https://www.instagram.com/tech.notify">
                 <FaInstagram className="text-2xl hover:text-primary duration-300" />
               </a>
               
-              <a href="#">
+              <a href="https://www.linkedin.com/company/tech-notify/?viewAsMember=true">
                 <FaLinkedin className="text-2xl hover:text-primary duration-300" />
               </a>
-              <a href="#">
-                <FaFacebook className="text-2xl hover:text-primary duration-300" />
+              <a href="https://www.technotify87@gmail.com">
+                <CgMail className="text-2xl hover:text-primary duration-300" />
               </a>
             </div>
           </div>

@@ -19,7 +19,7 @@ const Hero = () => {
             >
               <p className="text-gray-500 text-sm ">⭐Projects</p>
               <h1 className="font-bold">
-                600+ <span className="font-normal">Done</span>
+                60+ <span className="font-normal">Done</span>
               </h1>
             </div>
           </div>
